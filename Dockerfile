@@ -1,8 +1,6 @@
 FROM alpine
 
-
-RUN apk update \
-	&& apk add texlive-full
-
-VOLUME "/workdir"
-WORKDIR "/workdir"
+RUN apk --no-cache add \
+    texlive-full \
+    py3-pygments \
+    biber
