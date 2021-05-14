@@ -6,4 +6,4 @@ RUN apk --no-cache add \
     biber \
     make 
     
-RUN apk add cargo --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main
+RUN apk --no-cache add cargo --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main
