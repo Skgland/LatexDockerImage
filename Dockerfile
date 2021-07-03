@@ -4,7 +4,10 @@ RUN apk --no-cache add \
     texlive-full \
     py3-pygments \
     biber \
-    make 
+    make \
+    imagemagick \
+    ffmpeg
+    
     
 RUN apk --no-cache \
     --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main \
