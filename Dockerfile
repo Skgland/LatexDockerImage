@@ -4,6 +4,7 @@ RUN apk --no-cache add \
     texlive-full \
     py3-pygments \
     biber \
+    qpdf \
     make \
     imagemagick \
     ffmpeg
