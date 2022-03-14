@@ -8,9 +8,10 @@ RUN apk --no-cache add \
     make \
     imagemagick \
     ffmpeg
-    
-    
+
 RUN apk --no-cache \
     --repository=http://dl-cdn.alpinelinux.org/alpine/edge/main \
     --repository=http://dl-cdn.alpinelinux.org/alpine/edge/community \
-    add cargo 
+    add cargo
+
+RUN ln $(which python3) /usr/bin/python
