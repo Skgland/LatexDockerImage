@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build --rm -t skgland/pdflatex:new . 
+docker build --rm --no-cache -t skgland/pdflatex:new . 
